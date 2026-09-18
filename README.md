@@ -584,45 +584,9 @@ The final system demonstrates that:
 
 ---
 
-# 17. Screenshots
-
-Recommended screenshots for this repository:
-
-```text
-screenshots/
-├── apache-running.png
-├── modsecurity-enabled.png
-├── owasp-crs.png
-├── sql-injection-blocked.png
-├── xss-blocked.png
-├── modsecurity-log.png
-├── wazuh-agent.png
-├── wazuh-alert.png
-└── wazuh-dashboard.png
-```
-
-Screenshots should show the actual environment and results from your lab.
-
 ---
 
-# 18. Future Improvements
-
-Possible extensions include:
-
-* Teler for additional web-log analysis
-* Suricata IDS/IPS
-* Automated response
-* Shuffle SOAR integration
-* Telegram/email notifications
-* Threat-intelligence enrichment
-* Custom Wazuh correlation rules
-* Attack-source IP blocking
-* Centralized dashboards
-* Detection engineering based on MITRE ATT&CK
-
----
-
-# 19. Conclusion
+# 17. Conclusion
 
 This project demonstrates a practical security monitoring architecture in which **ModSecurity provides web application protection while Wazuh provides centralized security monitoring and alerting**.
 
